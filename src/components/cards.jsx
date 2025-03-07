@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card';
 function Cardcompo({cardimg,cardname,price}) {
   return (
     <Card style={{ width: '13rem' , border:"none"}}>
-      <Card.Img variant="top" src={cardimg} />
+      <Card.Img variant="top" src={cardimg} alt='' />
       <Card.Body>
         <Card.Title>{cardname}</Card.Title>
         <p><b>{price}</b></p>
