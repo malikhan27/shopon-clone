@@ -126,7 +126,7 @@ function App() {
         items:[
           {
             name:"FLOOR MATT",
-            image:"",
+            image:"src",
             id:"23",
             price:"Rs: 460",
     
