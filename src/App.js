@@ -28,27 +28,27 @@ function App() {
         name:"GIFT CARD 1",
         image:"https://shopon.pk/images/thumbnails/270/270/detailed/161/88b4924f-8d78-4379-9229-359e563ad1b9_pqyk-j8.jpg",
         id:"11",
-        price:"4000",
+        price:"Rs: 4000",
 
       },
       {
         name:"GIFT CARD 2",
         image:"https://shopon.pk/images/thumbnails/270/270/detailed/161/88b4924f-8d78-4379-9229-359e563ad1b9_pqyk-j8.jpg",
         id:"12",
-        price:"5000",
+        price:"Rs: 5000",
 
       },
       {
         name:"GIFT CARD 3",
         image:"https://shopon.pk/images/thumbnails/270/270/detailed/161/88b4924f-8d78-4379-9229-359e563ad1b9_pqyk-j8.jpg",
         id:"13",
-        price:"5500",
+        price:"Rs: 5500",
       },
       {
         name:"GIFT CARD 4",
         image:"https://shopon.pk/images/thumbnails/270/270/detailed/161/88b4924f-8d78-4379-9229-359e563ad1b9_pqyk-j8.jpg",
         id:"14",
-        price:"5500",
+        price:"Rs: 5500",
       },
     ]
 
@@ -61,28 +61,28 @@ function App() {
     items:[
       {
         name:"WOMEN LAWN SUIT",
-        image:"",
+        image:"	https://gulattire.com/cdn/shop/products/616464431_800x.jpg?v=1652360821",
         id:"15",
-        price:"2500",
+        price:"Rs: 2500",
 
       },{
         name:"MENS HOODIE",
-        image:"",
+        image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPSypz_vKUlzd_NId0P9BbFTik5sdhlQ4qAqFqHKsljw&s",
         id:"16",
-        price:"3000",
+        price:"Rs: 3000",
 
       },{
         name:"CAPS",
-        image:"",
+        image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtWCKFXx7xwLm6ibOeKq4NKezpP3fwLlRmVN4VZEVlNQ&s",
         id:"17",
-        price:"1000",
+        price:"Rs: 1000",
 
       } 
       ,{
-        name:"CAPS",
+        name:"SHAWL",
         image:"",
         id:"18",
-        price:"1000",
+        price:"Rs: 1000",
 
       }  ]
        
@@ -95,26 +95,26 @@ function App() {
             name:"SAMSUNG GALAXY",
             image:"",
             id:"19",
-            price:"30000",
+            price:"Rs: 30000",
     
           },{
             name:"JUICER BLENDER",
             image:"",
             id:"20",
-            price:"10000",
+            price:"Rs: 10000",
     
           },{
             name:"IRON",
             image:"",
             id:"21",
-            price:"5000",
+            price:"Rs: 5000",
     
           },
           {
             name:"IRON",
             image:"",
             id:"22",
-            price:"5000",
+            price:"Rs: 5000",
     
           }
         ]
@@ -128,26 +128,26 @@ function App() {
             name:"FLOOR MATT",
             image:"",
             id:"23",
-            price:"460",
+            price:"Rs: 460",
     
           },{
             name:"PRAYER MATT",
             image:"",
             id:"24",
-            price:"1000",
+            price:"Rs: 1000",
     
           },{
             name:"LIGHT SHADES",
             image:"",
             id:"25",
-            price:"2500",
+            price:"Rs: 2500",
     
           },
           {
             name:"LIGHT SHADES",
             image:"",
             id:"26",
-            price:"2500",
+            price:"Rs: 2500",
     
           },
           
@@ -164,7 +164,7 @@ function App() {
    <>
    <Container fluid>
     <div className='d-flex justify-content-between'>
-    <div className='mt-2 fw-bold'> <Navbar.Brand href="#"><img style={{width:150}} src='https://shopon.pk/images/logos/9/Shopon_Logo_F-03__1__3n3z-fn.png'></img></Navbar.Brand></div>
+    <div className='mt-2 fw-bold'> <Navbar.Brand href="#"><img style={{width:150}} src='https://shopon.pk/images/logos/9/Shopon_Logo_F-03__1__3n3z-fn.png' alt='logo'></img></Navbar.Brand></div>
      <Navbar expand="lg" >
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
@@ -246,7 +246,7 @@ function App() {
 
 <Container className='mt-5 text-center'>
   <h3 className='mb-5'>FLASH SALE</h3>
-  <Slick/>
+  <Slick objectofitems={categories} />
 </Container>
 
    </>
